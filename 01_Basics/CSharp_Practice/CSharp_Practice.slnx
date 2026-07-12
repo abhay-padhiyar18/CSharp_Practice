@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="01_Variables/01_Variables.csproj" />
+  <Project Path="02_Operators/02_Operators.csproj" />
+  <Project Path="03_Conditional/03_Conditional.csproj" />
+</Solution>
