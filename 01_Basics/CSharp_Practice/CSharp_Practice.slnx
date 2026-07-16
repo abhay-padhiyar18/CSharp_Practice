@@ -1,5 +1,8 @@
 <Solution>
-  <Project Path="01_Variables/01_Variables.csproj" />
-  <Project Path="02_Operators/02_Operators.csproj" />
-  <Project Path="03_Conditional/03_Conditional.csproj" />
+  <Project Path="06_const-readonly/06_const-readonly.csproj" Id="aeba2819-0fa7-46ec-9d3e-71c68ff714d4" />
+  <Project Path="D:/Personal/Development/DotNet Full Stack/CSharp_Practice/01_Basics/CSharp_Practice/01_Variables/01_Variables.csproj" />
+  <Project Path="D:/Personal/Development/DotNet Full Stack/CSharp_Practice/01_Basics/CSharp_Practice/02_Operators/02_Operators.csproj" />
+  <Project Path="D:/Personal/Development/DotNet Full Stack/CSharp_Practice/01_Basics/CSharp_Practice/03_Conditional/03_Conditional.csproj" />
+  <Project Path="D:/Personal/Development/DotNet Full Stack/CSharp_Practice/01_Basics/CSharp_Practice/04_Methods/04_Methods.csproj" Id="aa814fc0-d896-458f-b27a-321f14e8cc79" />
+  <Project Path="D:/Personal/Development/DotNet Full Stack/CSharp_Practice/01_Basics/CSharp_Practice/05_type-casting/05_type-casting.csproj" Id="d091533d-aa4c-4a70-83bb-8c99ec7af3f8" />
 </Solution>
