@@ -55,38 +55,80 @@ class Program
 
         //Program 4 BMI
 
-        Console.Write("Enter Weight (in kg): ");
-        double weight = Convert.ToDouble(Console.ReadLine());
+        //Console.Write("Enter Weight (in kg): ");
+        //double weight = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Enter Height (in meters): ");
-        double height = Convert.ToDouble(Console.ReadLine());
-        if (height <= 0)
-        {
-            Console.WriteLine("Height must be greater than zero.");
-            return;
-        }
+        //Console.Write("Enter Height (in meters): ");
+        //double height = Convert.ToDouble(Console.ReadLine());
+        //if (height <= 0)
+        //{
+        //    Console.WriteLine("Height must be greater than zero.");
+        //    return;
+        //}
 
-        
-
-        double bmi = weight / (height * height);
+        //double bmi = weight / (height * height);
 
 
-        Console.WriteLine("Weight: " + weight);
-        Console.WriteLine("Height: " + height);
+        //Console.WriteLine("Weight: " + weight);
+        //Console.WriteLine("Height: " + height);
 
-        Console.WriteLine("BMI: " + bmi.ToString("F2"));
+        //Console.WriteLine("BMI: " + bmi.ToString("F2"));
 
-        if (bmi < 18.5) {
-            Console.WriteLine("You are underweight.");
-        }
-        else if (bmi >= 18.5 && bmi < 25) {
-            Console.WriteLine("You have a normal weight.");
-        }
-        else if (bmi >= 25 && bmi < 30) {
-            Console.WriteLine("You are overweight.");
-        }
-        else {
-            Console.WriteLine("You are obese.");
-        }
+        //if (bmi < 18.5) {
+        //    Console.WriteLine("You are underweight.");
+        //}
+        //else if (bmi >= 18.5 && bmi < 25) {
+        //    Console.WriteLine("You have a normal weight.");
+        //}
+        //else if (bmi >= 25 && bmi < 30) {
+        //    Console.WriteLine("You are overweight.");
+        //}
+        //else {
+        //    Console.WriteLine("You are obese.");
+        //}
+
+
+
+        //Program 5 Circle Area Calculation
+
+        //Console.Write("Enter Radius of Circle: ");
+        //double radius = Convert.ToDouble(Console.ReadLine());
+
+        //if (radius <= 0)
+        //{
+        //    Console.WriteLine("Radius must be greater than zero.");
+        //    return;
+        //}
+
+        //double area = Math.PI * radius * radius;
+
+        //Console.WriteLine("Radius: " + radius);
+        //Console.WriteLine("Area of Circle: " + area.ToString("F2"));
+
+
+        //Program 10 Emlployee Bonus Calculation
+
+        //Console.Write("Enter Employee Name: ");
+        //string empName = Console.ReadLine();
+
+        //Console.Write("Enter Employee Salary: ");
+        //decimal empSalary = Convert.ToDecimal(Console.ReadLine());
+
+        //decimal bonusPercentage = 10m; // 10% bonus
+        //decimal bonusAmount = empSalary * bonusPercentage / 100;
+        //decimal totalSalaryWithBonus = empSalary + bonusAmount;
+
+
+
+        //Console.WriteLine("--- Employee Bonus Details ---");
+
+        //Console.WriteLine("Employee Name: " + empName);
+        //Console.WriteLine("Employee Salary: " + empSalary);
+        //Console.WriteLine("Bonus Amount: " + bonusAmount);
+        //Console.WriteLine("Total Salary with Bonus: " + totalSalaryWithBonus);
+
+
+
+
     }
 }
